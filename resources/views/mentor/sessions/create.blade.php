@@ -1,4 +1,3 @@
-<!-- resources/views/mentor/sessions/create.blade.php -->
 @extends('layouts.mentor')
 
 @section('title', 'Buat Sesi Baru')

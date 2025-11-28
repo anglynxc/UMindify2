@@ -1,7 +1,6 @@
-<!-- resources/views/admin/manage-jurusans.blade.php -->
 @extends('layouts.admin')
 
-@section('title', 'Kelola Jurusan - Udimify')
+@section('title', 'Kelola Jurusan - Umindify')
 
 @section('content')
 <div class="container-fluid">

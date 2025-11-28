@@ -68,7 +68,7 @@ class AuthController extends Controller
 
         Auth::login($user);
 
-        return redirect()->route('user.dashboard')->with('success', 'Registrasi berhasil! Selamat datang di Udimify.');
+        return redirect()->route('user.dashboard')->with('success', 'Registrasi berhasil! Selamat datang di Umindify.');
     }
 
     public function logout(Request $request)

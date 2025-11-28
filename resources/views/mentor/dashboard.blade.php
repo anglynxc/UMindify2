@@ -1,4 +1,3 @@
-<!-- resources/views/mentor/dashboard.blade.php -->
 @extends('layouts.mentor')
 
 @section('title', 'Dashboard Mentor')

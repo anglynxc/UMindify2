@@ -1,4 +1,3 @@
-<!-- resources/views/layouts/mentor.blade.php -->
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -34,7 +33,7 @@
                     <div class="text-center mb-4">
                         <h4 class="text-white">
                             <i class="fas fa-graduation-cap"></i><br>
-                            Udimify Mentor
+                            Umindify Mentor
                         </h4>
                     </div>
                     

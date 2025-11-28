@@ -1,4 +1,3 @@
-<!-- resources/views/user/dashboard.blade.php -->
 @extends('layouts.user')
 
 @section('title', 'Dashboard')
@@ -10,7 +9,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <h1 class="display-4 fw-bold">Tingkatkan Skillmu dengan Les Terbaik</h1>
-                <p class="lead">Temukan mentor berkualitas dari mahasiswa UMKU untuk membantumu menguasai berbagai bidang keahlian.</p>
+                <p class="lead">Temukan mentor berkualitas dari mahasiswa UM untuk membantumu menguasai berbagai bidang keahlian.</p>
                 <a href="{{ route('user.sessions.browse') }}" class="btn btn-light btn-lg">
                     <i class="fas fa-search me-2"></i>Cari Les Sekarang
                 </a>
@@ -30,7 +29,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <div>
                     <h6 class="alert-heading mb-1">Ingin Berbagi Ilmu?</h6>
-                    <p class="mb-0">Daftar menjadi mentor dan mulailah mengajar di Udimify!</p>
+                    <p class="mb-0">Daftar menjadi mentor dan mulailah mengajar di Umindify!</p>
                 </div>
                 <a href="{{ route('user.become-mentor') }}" class="btn btn-outline-primary">
                     Jadi Mentor <i class="fas fa-arrow-right ms-1"></i>

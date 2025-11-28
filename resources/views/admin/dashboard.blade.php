@@ -1,13 +1,11 @@
-<!-- resources/views/admin/dashboard.blade.php -->
 @extends('layouts.admin')
 
-@section('title', 'Admin Dashboard - Udimify')
+@section('title', 'Admin Dashboard - Umindify')
 
 @section('content')
 <div class="container-fluid">
     <h1 class="h3 mb-4">Dashboard Admin</h1>
     
-    <!-- Statistics Cards -->
     <div class="row">
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-primary shadow h-100 py-2">

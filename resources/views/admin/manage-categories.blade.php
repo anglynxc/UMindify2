@@ -1,7 +1,6 @@
-<!-- resources/views/admin/manage-categories.blade.php -->
 @extends('layouts.admin')
 
-@section('title', 'Kelola Kategori - Udimify')
+@section('title', 'Kelola Kategori - Umindify')
 
 @section('content')
 <div class="container-fluid">

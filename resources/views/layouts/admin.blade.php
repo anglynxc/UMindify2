@@ -1,4 +1,3 @@
-<!-- resources/views/layouts/admin.blade.php -->
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -14,7 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="{{ route('admin.dashboard') }}">
-                <i class="fas fa-graduation-cap"></i> Udimify Admin
+                <i class="fas fa-graduation-cap"></i> Umindify Admin
             </a>
             
             <div class="navbar-nav ms-auto">

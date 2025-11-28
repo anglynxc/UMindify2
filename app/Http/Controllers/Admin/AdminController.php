@@ -44,7 +44,6 @@ class AdminController extends Controller
         return view('admin.mentor-requests', compact('mentor_requests'));
     }
 
-// app/Http/Controllers/Admin/AdminController.php - pastikan method approveMentor
 public function approveMentor($id)
 {
     try {

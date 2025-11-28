@@ -1,7 +1,6 @@
-<!-- resources/views/admin/all-mentors.blade.php -->
 @extends('layouts.admin')
 
-@section('title', 'Semua Mentor - Udimify')
+@section('title', 'Semua Mentor - Umindify')
 
 @section('content')
 <div class="container-fluid">

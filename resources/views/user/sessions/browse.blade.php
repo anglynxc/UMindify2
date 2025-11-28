@@ -1,4 +1,3 @@
-<!-- resources/views/user/sessions/browse.blade.php -->
 @extends('layouts.user')
 
 @section('title', 'Cari Les')

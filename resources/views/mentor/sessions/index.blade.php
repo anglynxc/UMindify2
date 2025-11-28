@@ -1,4 +1,3 @@
-<!-- resources/views/mentor/sessions/index.blade.php -->
 @extends('layouts.mentor')
 
 @section('title', 'Sesi Les Saya')
@@ -55,7 +54,6 @@
                                     {{ $session->status }}
                                 </span>
                             </td>
-<!-- resources/views/mentor/sessions/index.blade.php - update bagian aksi -->
 <td>
     <div class="btn-group">
         <a href="{{ route('mentor.sessions.participants', $session->id) }}" 

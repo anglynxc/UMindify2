@@ -1,7 +1,6 @@
-<!-- resources/views/admin/all-users.blade.php -->
 @extends('layouts.admin')
 
-@section('title', 'Semua User - Udimify')
+@section('title', 'Semua User - Umindify')
 
 @section('content')
 <div class="container-fluid">

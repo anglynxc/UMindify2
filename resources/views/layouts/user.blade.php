@@ -1,4 +1,3 @@
-<!-- resources/views/layouts/user.blade.php -->
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -31,7 +30,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="{{ route('user.dashboard') }}">
-                <i class="fas fa-graduation-cap me-2"></i>Udimify
+                <i class="fas fa-graduation-cap me-2"></i>Umindify
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -128,7 +127,7 @@
     <!-- Footer -->
     <footer class="bg-dark text-white mt-5 py-4">
         <div class="container text-center">
-            <p>&copy; 2024 Udimify. All rights reserved.</p>
+            <p>&copy; 2024 Umindify. All rights reserved.</p>
         </div>
     </footer>
 

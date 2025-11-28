@@ -1,7 +1,6 @@
-<!-- resources/views/admin/all-sessions.blade.php -->
 @extends('layouts.admin')
 
-@section('title', 'Semua Sesi - Udimify')
+@section('title', 'Semua Sesi - Umindify')
 
 @section('content')
 <div class="container-fluid">

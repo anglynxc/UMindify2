@@ -1,4 +1,3 @@
-<!-- resources/views/user/sessions/detail.blade.php -->
 @extends('layouts.user')
 
 @section('title', $session->judul)

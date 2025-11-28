@@ -25,7 +25,7 @@
                     <div class="card-body p-5 text-center">
                         <div class="mb-4">
                             <h2 class="fw-bold mb-4">
-                                <i class="fas fa-graduation-cap me-2"></i>Udimify
+                                <i class="fas fa-graduation-cap me-2"></i>Umindify
                             </h2>
                             <p class="text-muted">Masuk ke akun Anda</p>
                         </div>

@@ -1,4 +1,3 @@
-<!-- resources/views/user/become-mentor.blade.php -->
 @extends('layouts.user')
 
 @section('title', 'Daftar Jadi Mentor')
@@ -89,7 +88,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="mb-3">
-                                        <label for="nim" class="form-label">NIM UMKU <span class="text-danger">*</span></label>
+                                        <label for="nim" class="form-label">NIM UM <span class="text-danger">*</span></label>
                                         <input type="text" class="form-control @error('nim') is-invalid @enderror" 
                                                id="nim" name="nim" value="{{ old('nim') }}" 
                                                placeholder="Contoh: 202151000" required>
@@ -189,7 +188,7 @@
                {{ old('terms') ? 'checked' : '' }} required>
         <label class="form-check-label" for="terms">
             Saya menyetujui <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Syarat dan Ketentuan</a> 
-            menjadi mentor di Udimify <span class="text-danger">*</span>
+            menjadi mentor di Umindify <span class="text-danger">*</span>
         </label>
         @error('terms')
             <div class="invalid-feedback">{{ $message }}</div>
@@ -216,7 +215,7 @@
                 <div class="card-body">
                     <h6><i class="fas fa-info-circle me-2 text-primary"></i>Informasi Penting</h6>
                     <ul class="list-unstyled mb-0">
-                        <li><i class="fas fa-check text-success me-2"></i>Hanya mahasiswa UMKU yang bisa menjadi mentor</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Hanya mahasiswa UM yang bisa menjadi mentor</li>
                         <li><i class="fas fa-check text-success me-2"></i>Permohonan akan ditinjau dalam 1-3 hari kerja</li>
                         <li><i class="fas fa-check text-success me-2"></i>Anda akan mendapat notifikasi via email</li>
                         <li><i class="fas fa-check text-success me-2"></i>Setelah disetujui, Anda bisa langsung membuat sesi les</li>
@@ -238,10 +237,10 @@
             <div class="modal-body">
                 <h6>Persyaratan:</h6>
                 <ul>
-                    <li>Merupakan mahasiswa aktif UMKU dengan NIM yang valid</li>
+                    <li>Merupakan mahasiswa aktif UM dengan NIM yang valid</li>
                     <li>Memiliki pengalaman atau keahlian dalam bidang yang akan diajarkan</li>
                     <li>Berkomitmen untuk memberikan pengajaran yang berkualitas</li>
-                    <li>Bersedia mengikuti aturan dan panduan dari Udimify</li>
+                    <li>Bersedia mengikuti aturan dan panduan dari Umindify</li>
                 </ul>
 
                 <h6>Kewajiban Mentor:</h6>
